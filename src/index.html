@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRASH TO TECH - Solusi Inovatif Pengolahan Sampah</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <h2>TRASH TO TECH</h2>
+            <p>Memuat aplikasi...</p>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-recycle"></i>
+                    <span>TRASH TO TECH</span>
+                </div>
+                <nav class="nav">
+                    <a href="#hero" class="nav-link">Beranda</a>
+                    <a href="#education" class="nav-link">Edukasi</a>
+                    <a href="#products" class="nav-link">Produk</a>
+                    <a href="#monitoring" class="nav-link">Monitoring</a>
+                </nav>
+                <button id="login-btn" class="btn btn-primary">Masuk</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main App Container -->
+    <div id="app-container">
+        
+        <!-- Landing Page -->
+        <div id="landing-page" class="page active">
+            
+            <!-- Hero Section -->
+            <section id="hero" class="hero-section">
+                <div class="container">
+                    <div class="hero-content">
+                        <div class="hero-text">
+                            <h1>Transformasi Sampah Menjadi Energi Masa Depan</h1>
+                            <p>Platform inovatif yang mengubah sampah rumah tangga menjadi bahan bakar ramah lingkungan menggunakan teknologi pirolisis dan kecerdasan buatan.</p>
+                            <div class="hero-buttons">
+                                <button id="get-started-btn" class="btn btn-primary btn-large">
+                                    <i class="fas fa-rocket"></i>
+                                    Mulai Sekarang
+                                </button>
+                                <button id="learn-more-btn" class="btn btn-secondary btn-large">
+                                    <i class="fas fa-play"></i>
+                                    Pelajari Lebih
+                                </button>
+                            </div>
+                            <div class="hero-stats">
+                                <div class="stat-item">
+                                    <span class="stat-number">10K+</span>
+                                    <span class="stat-label">Kg Sampah Diolah</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">500+</span>
+                                    <span class="stat-label">Pengguna Aktif</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">95%</span>
+                                    <span class="stat-label">Efisiensi Konversi</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hero-image">
+                            <div class="hero-card">
+                                <img src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=600&h=400&fit=crop" alt="Teknologi Pirolisis" class="hero-img">
+                                <div class="hero-card-overlay">
+                                    <i class="fas fa-industry"></i>
+                                    <span>Teknologi Pirolisis</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Pyrolysis Section -->
+            <section id="pyrolysis" class="pyrolysis-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Teknologi Pirolisis Terdepan</h2>
+                        <p>Proses konversi sampah menjadi bahan bakar menggunakan teknologi ramah lingkungan</p>
+                    </div>
+                    <div class="pyrolysis-content">
+                        <div class="pyrolysis-image">
+                            <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=400&fit=crop" alt="Proses Pirolisis">
+                        </div>
+                        <div class="pyrolysis-steps">
+                            <div class="step-item">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h3>Pengumpulan Sampah</h3>
+                                    <p>Sampah organik dikumpulkan dan disortir berdasarkan jenis</p>
+                                </div>
+                            </div>
+                            <div class="step-item">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h3>Proses Pirolisis</h3>
+                                    <p>Pemanasan sampah pada suhu tinggi tanpa oksigen</p>
+                                </div>
+                            </div>
+                            <div class="step-item">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h3>Konversi Energi</h3>
+                                    <p>Menghasilkan bahan bakar cair berkualitas tinggi</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section id="education" class="education-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Edukasi Lingkungan</h2>
+                        <p>Pelajari lebih lanjut tentang pengelolaan sampah dan teknologi hijau</p>
+                    </div>
+                    <div class="education-grid">
+                        <div class="education-card">
+                            <div class="card-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <h3>Jenis Sampah</h3>
+                            <p>Sampah organik, kertas, plastik PET, dan bahan biodegradable yang dapat diolah menjadi bahan bakar</p>
+                            <button class="btn btn-outline">Pelajari</button>
+                        </div>
+                        <div class="education-card">
+                            <div class="card-icon">
+                                <i class="fas fa-fire"></i>
+                            </div>
+                            <h3>Proses Pirolisis</h3>
+                            <p>Dekomposisi termal bahan organik pada suhu 400-800°C tanpa oksigen menghasilkan bio-oil</p>
+                            <button class="btn btn-outline">Pelajari</button>
+                        </div>
+                        <div class="education-card">
+                            <div class="card-icon">
+                                <i class="fas fa-seedling"></i>
+                            </div>
+                            <h3>Dampak Lingkungan</h3>
+                            <p>Mengurangi emisi gas rumah kaca hingga 60% dan volume sampah TPA hingga 85%</p>
+                            <button class="btn btn-outline">Pelajari</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Products Section -->
+            <section id="products" class="products-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Produk Yang Dihasilkan</h2>
+                        <p>Berbagai jenis bahan bakar berkualitas tinggi hasil konversi sampah</p>
+                    </div>
+                    <div class="products-grid">
+                        <div class="product-card">
+                            <img src="https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=300&h=200&fit=crop" alt="Bio-Solar">
+                            <div class="product-content">
+                                <h3>Bio-Solar</h3>
+                                <p>Bahan bakar diesel ramah lingkungan dengan efisiensi tinggi</p>
+                                <div class="product-specs">
+                                    <span class="spec-item">Oktan: 45-55</span>
+                                    <span class="spec-item">Sulfur: <0.1%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop" alt="Bio-Bensin">
+                            <div class="product-content">
+                                <h3>Bio-Bensin</h3>
+                                <p>Bensin alternatif dengan performa setara premium</p>
+                                <div class="product-specs">
+                                    <span class="spec-item">Oktan: 87-92</span>
+                                    <span class="spec-item">Etanol: 10%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=300&h=200&fit=crop" alt="Gas Sintetis">
+                            <div class="product-content">
+                                <h3>Gas Sintetis</h3>
+                                <p>Gas pembakaran bersih untuk industri dan rumah tangga</p>
+                                <div class="product-specs">
+                                    <span class="spec-item">BTU: 8500-9000</span>
+                                    <span class="spec-item">CO2: Rendah</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- AI Prediction Section -->
+            <section id="ai-prediction" class="ai-section">
+                <div class="container">
+                    <div class="ai-content">
+                        <div class="ai-text">
+                            <h2>Prediksi AI Cerdas</h2>
+                            <p>Sistem kecerdasan buatan menganalisis jenis sampah dan memprediksi hasil bahan bakar dengan akurasi tinggi</p>
+                            <div class="ai-features">
+                                <div class="feature-item">
+                                    <i class="fas fa-camera"></i>
+                                    <span>Deteksi Visual Real-time</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-chart-line"></i>
+                                    <span>Prediksi Akurat 95%</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-cog"></i>
+                                    <span>Optimasi Otomatis</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ai-demo">
+                            <div class="demo-card">
+                                <div class="demo-header">
+                                    <i class="fas fa-robot"></i>
+                                    <span>AI Analysis</span>
+                                </div>
+                                <div class="demo-content">
+                                    <div class="analysis-item">
+                                        <span class="label">Jenis Sampah:</span>
+                                        <span class="value">Plastik PET</span>
+                                    </div>
+                                    <div class="analysis-item">
+                                        <span class="label">Prediksi Output:</span>
+                                        <span class="value">0.75L Bio-Solar</span>
+                                    </div>
+                                    <div class="analysis-item">
+                                        <span class="label">Confidence:</span>
+                                        <span class="value confidence">96%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Monitoring Dashboard Section -->
+            <section id="monitoring" class="monitoring-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Monitoring Real-time</h2>
+                        <p>Pantau kinerja sistem pirolisis secara langsung</p>
+                    </div>
+                    <div class="monitoring-grid">
+                        <div class="monitor-card">
+                            <div class="monitor-header">
+                                <i class="fas fa-thermometer-half"></i>
+                                <span>Suhu Reaktor</span>
+                            </div>
+                            <div class="monitor-value">
+                                <span class="value">650°C</span>
+                                <span class="status status-normal">Normal</span>
+                            </div>
+                        </div>
+                        <div class="monitor-card">
+                            <div class="monitor-header">
+                                <i class="fas fa-tachometer-alt"></i>
+                                <span>Tekanan</span>
+                            </div>
+                            <div class="monitor-value">
+                                <span class="value">2.3 Bar</span>
+                                <span class="status status-normal">Optimal</span>
+                            </div>
+                        </div>
+                        <div class="monitor-card">
+                            <div class="monitor-header">
+                                <i class="fas fa-flask"></i>
+                                <span>Produksi Hari Ini</span>
+                            </div>
+                            <div class="monitor-value">
+                                <span class="value">45.2L</span>
+                                <span class="status status-good">Target 120%</span>
+                            </div>
+                        </div>
+                        <div class="monitor-card">
+                            <div class="monitor-header">
+                                <i class="fas fa-users"></i>
+                                <span>Pengguna Aktif</span>
+                            </div>
+                            <div class="monitor-value">
+                                <span class="value">287</span>
+                                <span class="status status-good">+12% hari ini</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CTA Section -->
+            <section id="cta" class="cta-section">
+                <div class="container">
+                    <div class="cta-content">
+                        <h2>Bergabunglah Dengan Revolusi Hijau</h2>
+                        <p>Mulai berkontribusi pada lingkungan yang lebih bersih sambil mendapatkan keuntungan dari sistem reward kami</p>
+                        <div class="cta-buttons">
+                            <button id="cta-citizen-btn" class="btn btn-primary btn-large">
+                                <i class="fas fa-user"></i>
+                                Daftar Sebagai Masyarakat
+                            </button>
+                            <button id="cta-operator-btn" class="btn btn-secondary btn-large">
+                                <i class="fas fa-cog"></i>
+                                Login Operator
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- Login Page -->
+        <div id="login-page" class="page">
+            <div class="login-container">
+                <div class="login-card">
+                    <div class="login-header">
+                        <div class="logo">
+                            <i class="fas fa-recycle"></i>
+                            <span>TRASH TO TECH</span>
+                        </div>
+                        <h2>Masuk ke Akun Anda</h2>
+                        <p>Pilih jenis akun untuk melanjutkan</p>
+                    </div>
+                    
+                    <div class="login-tabs">
+                        <button class="tab-btn active" data-tab="citizen">
+                            <i class="fas fa-user"></i>
+                            Masyarakat
+                        </button>
+                        <button class="tab-btn" data-tab="operator">
+                            <i class="fas fa-cog"></i>
+                            Operator
+                        </button>
+                    </div>
+
+                    <form id="login-form" class="login-form">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="nama@fasilitas-ttt.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" placeholder="Masukkan password" required>
+                        </div>
+                        <div class="form-options">
+                            <label class="checkbox">
+                                <input type="checkbox" name="remember">
+                                <span class="checkmark"></span>
+                                Ingat saya
+                            </label>
+                            <a href="#" class="forgot-link">Lupa password?</a>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            Masuk
+                        </button>
+                    </form>
+
+                    <div class="login-footer">
+                        <p>Belum punya akun? <a href="#" id="register-link">Daftar sekarang</a></p>
+                        <button id="back-to-home" class="btn btn-outline">
+                            <i class="fas fa-arrow-left"></i>
+                            Kembali ke Beranda
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Citizen Dashboard -->
+        <div id="citizen-dashboard" class="page dashboard">
+            <div class="dashboard-sidebar">
+                <div class="sidebar-header">
+                    <div class="logo">
+                        <i class="fas fa-recycle"></i>
+                        <span>TRASH TO TECH</span>
+                    </div>
+                </div>
+                <nav class="sidebar-nav">
+                    <a href="#" class="nav-item active" data-section="overview">
+                        <i class="fas fa-home"></i>
+                        <span>Beranda</span>
+                    </a>
+                    <a href="#" class="nav-item" data-section="scan">
+                        <i class="fas fa-camera"></i>
+                        <span>Scan Sampah</span>
+                    </a>
+                    <a href="#" class="nav-item" data-section="points">
+                        <i class="fas fa-coins"></i>
+                        <span>Poin Saya</span>
+                    </a>
+                    <a href="#" class="nav-item" data-section="history">
+                        <i class="fas fa-history"></i>
+                        <span>Riwayat</span>
+                    </a>
+                    <a href="#" class="nav-item" data-section="rewards">
+                        <i class="fas fa-gift"></i>
+                        <span>Tukar Poin</span>
+                    </a>
+                </nav>
+                <div class="sidebar-footer">
+                    <button id="citizen-logout" class="btn btn-outline btn-full">
+                        <i class="fas fa-sign-out-alt"></i>
+                        Keluar
+                    </button>
+                </div>
+            </div>
+
+            <div class="dashboard-main">
+                <div class="dashboard-header">
+                    <div class="header-left">
+                        <h1>Dashboard Masyarakat</h1>
+                        <p>Selamat datang, <span id="citizen-name">User</span></p>
+                    </div>
+                    <div class="header-right">
+                        <div class="points-display">
+                            <i class="fas fa-coins"></i>
+                            <span id="citizen-points">1,250</span> Poin
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dashboard-content">
+                    <!-- Overview Section -->
+                    <div id="overview-section" class="content-section active">
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <i class="fas fa-trash"></i>
+                                </div>
+                                <div class="stat-content">
+                                    <h3>Total Sampah</h3>
+                                    <p class="stat-value">24.5 kg</p>
+                                    <span class="stat-change positive">+2.1 kg minggu ini</span>
+                                </div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <i class="fas fa-coins"></i>
+                                </div>
+                                <div class="stat-content">
+                                    <h3>Poin Terkumpul</h3>
+                                    <p class="stat-value">1,250</p>
+                                    <span class="stat-change positive">+400 minggu ini</span>
+                                </div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <i class="fas fa-leaf"></i>
+                                </div>
+                                <div class="stat-content">
+                                    <h3>CO2 Dikurangi</h3>
+                                    <p class="stat-value">18.3 kg</p>
+                                    <span class="stat-change positive">+3.2 kg minggu ini</span>
+                                </div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <i class="fas fa-trophy"></i>
+                                </div>
+                                <div class="stat-content">
+                                    <h3>Ranking</h3>
+                                    <p class="stat-value">#12</p>
+                                    <span class="stat-change positive">Naik 3 posisi</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Scan Section -->
+                    <div id="scan-section" class="content-section">
+                        <div class="scan-container">
+                            <div class="scan-card">
+                                <h2>Scan Sampah Anda</h2>
+                                <p>Arahkan kamera ke sampah untuk analisis AI</p>
+                                <div class="camera-container">
+                                    <video id="camera-feed" autoplay></video>
+                                    <canvas id="camera-canvas"></canvas>
+                                    <div class="camera-overlay">
+                                        <div class="scan-frame"></div>
+                                        <div class="scan-instructions">
+                                            Posisikan sampah di dalam frame
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="scan-controls">
+                                    <button id="start-camera" class="btn btn-primary">
+                                        <i class="fas fa-camera"></i>
+                                        Mulai Kamera
+                                    </button>
+                                    <button id="capture-photo" class="btn btn-secondary" disabled>
+                                        <i class="fas fa-camera-retro"></i>
+                                        Ambil Foto
+                                    </button>
+                                </div>
+                                <div id="scan-result" class="scan-result"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Points Section -->
+                    <div id="points-section" class="content-section">
+                        <div class="points-overview">
+                            <div class="points-card">
+                                <h2>Saldo Poin Anda</h2>
+                                <div class="points-balance">
+                                    <span class="balance-amount">1,250</span>
+                                    <span class="balance-label">Poin</span>
+                                </div>
+                                <p>Setara dengan Rp 12,500</p>
+                            </div>
+                            <div class="points-chart">
+                                <h3>Perolehan Poin Mingguan</h3>
+                                <div class="chart-placeholder">
+                                    <canvas id="points-chart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- History Section -->
+                    <div id="history-section" class="content-section">
+                        <div class="history-container">
+                            <h2>Riwayat Penyetoran</h2>
+                            <div class="history-table">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Tanggal</th>
+                                            <th>Jenis Sampah</th>
+                                            <th>Berat</th>
+                                            <th>Poin</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="history-data">
+                                        <tr>
+                                            <td>12 Sep 2025</td>
+                                            <td>Plastik PET</td>
+                                            <td>2.1 kg</td>
+                                            <td>420</td>
+                                            <td><span class="status success">Berhasil</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>10 Sep 2025</td>
+                                            <td>Kertas</td>
+                                            <td>1.5 kg</td>
+                                            <td>300</td>
+                                            <td><span class="status success">Berhasil</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>08 Sep 2025</td>
+                                            <td>Organik</td>
+                                            <td>3.2 kg</td>
+                                            <td>640</td>
+                                            <td><span class="status success">Berhasil</span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Rewards Section -->
+                    <div id="rewards-section" class="content-section">
+                        <div class="rewards-container">
+                            <h2>Tukar Poin Anda</h2>
+                            <div class="rewards-grid">
+                                <div class="reward-card">
+                                    <div class="reward-image">
+                                        <i class="fas fa-mobile-alt"></i>
+                                    </div>
+                                    <h3>Pulsa 10K</h3>
+                                    <p class="reward-cost">1000 Poin</p>
+                                    <button class="btn btn-primary">Tukar</button>
+                                </div>
+                                <div class="reward-card">
+                                    <div class="reward-image">
+                                        <i class="fas fa-wallet"></i>
+                                    </div>
+                                    <h3>Saldo OVO</h3>
+                                    <p class="reward-cost">500 Poin = Rp 5,000</p>
+                                    <button class="btn btn-primary">Tukar</button>
+                                </div>
+                                <div class="reward-card">
+                                    <div class="reward-image">
+                                        <i class="fas fa-gift"></i>
+                                    </div>
+                                    <h3>Voucher Belanja</h3>
+                                    <p class="reward-cost">2000 Poin</p>
+                                    <button class="btn btn-primary disabled">Tidak Cukup</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Operator Dashboard -->
+        <div id="operator-dashboard" class="page dashboard">
+            <div class="dashboard-sidebar">
+                <div class="sidebar-header">
+                    <div class="logo">
+                        <i class="fas fa-recycle"></i>
+                        <span>TRASH TO TECH</span>
+                    </div>
+                </div>
+                <nav class="sidebar-nav">
+                    <a href="#" class="nav-item active" data-section="monitoring">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Monitoring</span>
+                    </a>
+                    <a href="#" class="nav-item" data-section="production">
+                        <i class="fas fa-industry"></i>
+                        <span>Produksi</span>
+                    </a>
+                    <a href="#" class="nav-item" data-section="users">
+                        <i class="fas fa-users"></i>
+                        <span>Pengguna</span>
+                    </a>
+                    <a href="#" class="nav-item" data-section="reports">
+                        <i class="fas fa-file-alt"></i>
+                        <span>Laporan</span>
+                    </a>
+                    <a href="#" class="nav-item" data-section="settings">
+                        <i class="fas fa-cog"></i>
+                        <span>Pengaturan</span>
+                    </a>
+                </nav>
+                <div class="sidebar-footer">
+                    <button id="operator-logout" class="btn btn-outline btn-full">
+                        <i class="fas fa-sign-out-alt"></i>
+                        Keluar
+                    </button>
+                </div>
+            </div>
+
+            <div class="dashboard-main">
+                <div class="dashboard-header">
+                    <div class="header-left">
+                        <h1>Dashboard Operator</h1>
+                        <p>Monitoring Sistem Pirolisis</p>
+                    </div>
+                    <div class="header-right">
+                        <div class="status-display">
+                            <div class="status-indicator active"></div>
+                            <span>Sistem Aktif</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dashboard-content">
+                    <!-- Monitoring Section -->
+                    <div id="monitoring-section" class="content-section active">
+                        <div class="monitoring-grid">
+                            <div class="monitor-card large">
+                                <h3>Suhu Reaktor Real-time</h3>
+                                <div class="temperature-gauge">
+                                    <div class="gauge-container">
+                                        <div class="gauge-needle" style="transform: rotate(65deg);"></div>
+                                        <div class="gauge-value">650°C</div>
+                                    </div>
+                                    <div class="gauge-labels">
+                                        <span>0°C</span>
+                                        <span>400°C</span>
+                                        <span>800°C</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="monitor-card">
+                                <h3>Tekanan Sistem</h3>
+                                <div class="metric-display">
+                                    <span class="metric-value">2.3</span>
+                                    <span class="metric-unit">Bar</span>
+                                </div>
+                                <div class="metric-status normal">Normal</div>
+                            </div>
+                            <div class="monitor-card">
+                                <h3>Flow Rate</h3>
+                                <div class="metric-display">
+                                    <span class="metric-value">15.2</span>
+                                    <span class="metric-unit">L/h</span>
+                                </div>
+                                <div class="metric-status optimal">Optimal</div>
+                            </div>
+                            <div class="monitor-card">
+                                <h3>Efisiensi</h3>
+                                <div class="metric-display">
+                                    <span class="metric-value">94.2</span>
+                                    <span class="metric-unit">%</span>
+                                </div>
+                                <div class="metric-status good">Baik</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Production Section -->
+                    <div id="production-section" class="content-section">
+                        <div class="production-overview">
+                            <div class="production-stats">
+                                <div class="stat-card">
+                                    <h3>Produksi Hari Ini</h3>
+                                    <p class="stat-value">45.2 L</p>
+                                    <span class="stat-progress">Target: 38L (120%)</span>
+                                </div>
+                                <div class="stat-card">
+                                    <h3>Sampah Diproses</h3>
+                                    <p class="stat-value">67.8 kg</p>
+                                    <span class="stat-progress">+12% dari kemarin</span>
+                                </div>
+                                <div class="stat-card">
+                                    <h3>Uptime Sistem</h3>
+                                    <p class="stat-value">98.5%</p>
+                                    <span class="stat-progress">23h 38m aktif</span>
+                                </div>
+                            </div>
+                            <div class="production-chart">
+                                <h3>Produksi Mingguan</h3>
+                                <canvas id="production-chart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Users Section -->
+                    <div id="users-section" class="content-section">
+                        <div class="users-container">
+                            <div class="users-header">
+                                <h2>Manajemen Pengguna</h2>
+                                <div class="users-stats">
+                                    <div class="stat-item">
+                                        <span class="stat-label">Total Pengguna:</span>
+                                        <span class="stat-value">287</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">Aktif Hari Ini:</span>
+                                        <span class="stat-value">42</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="users-table">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Nama</th>
+                                            <th>Total Sampah</th>
+                                            <th>Poin</th>
+                                            <th>Bergabung</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Ahmad Hidayat</td>
+                                            <td>45.2 kg</td>
+                                            <td>9,040</td>
+                                            <td>15 Jan 2025</td>
+                                            <td><span class="status active">Aktif</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Sari Dewi</td>
+                                            <td>32.1 kg</td>
+                                            <td>6,420</td>
+                                            <td>22 Feb 2025</td>
+                                            <td><span class="status active">Aktif</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Budi Santoso</td>
+                                            <td>28.7 kg</td>
+                                            <td>5,740</td>
+                                            <td>03 Mar 2025</td>
+                                            <td><span class="status inactive">Tidak Aktif</span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Reports Section -->
+                    <div id="reports-section" class="content-section">
+                        <div class="reports-container">
+                            <h2>Laporan Sistem</h2>
+                            <div class="report-filters">
+                                <select id="report-period">
+                                    <option value="daily">Harian</option>
+                                    <option value="weekly" selected>Mingguan</option>
+                                    <option value="monthly">Bulanan</option>
+                                </select>
+                                <button class="btn btn-primary">Generate Laporan</button>
+                            </div>
+                            <div class="report-summary">
+                                <div class="summary-card">
+                                    <h3>Ringkasan Minggu Ini</h3>
+                                    <ul>
+                                        <li>Total Produksi: 312.4 L</li>
+                                        <li>Sampah Diproses: 467.8 kg</li>
+                                        <li>Efisiensi Rata-rata: 93.8%</li>
+                                        <li>Downtime: 2.3 jam</li>
+                                        <li>Pengguna Baru: 15 orang</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Settings Section -->
+                    <div id="settings-section" class="content-section">
+                        <div class="settings-container">
+                            <h2>Pengaturan Sistem</h2>
+                            <div class="settings-groups">
+                                <div class="settings-group">
+                                    <h3>Parameter Pirolisis</h3>
+                                    <div class="setting-item">
+                                        <label>Target Suhu (°C)</label>
+                                        <input type="number" value="650" min="400" max="800">
+                                    </div>
+                                    <div class="setting-item">
+                                        <label>Tekanan Maksimal (Bar)</label>
+                                        <input type="number" value="3.0" min="1.0" max="5.0" step="0.1">
+                                    </div>
+                                    <div class="setting-item">
+                                        <label>Auto Shutdown</label>
+                                        <input type="checkbox" checked>
+                                    </div>
+                                </div>
+                                <div class="settings-group">
+                                    <h3>Sistem Poin</h3>
+                                    <div class="setting-item">
+                                        <label>Poin per kg Sampah</label>
+                                        <input type="number" value="200" min="100" max="500">
+                                    </div>
+                                    <div class="setting-item">
+                                        <label>Bonus Mingguan (%)</label>
+                                        <input type="number" value="10" min="0" max="50">
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary">Simpan Pengaturan</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fas fa-recycle"></i>
+                        <span>TRASH TO TECH</span>
+                    </div>
+                    <p>Platform inovatif yang mengubah sampah menjadi energi masa depan dengan teknologi pirolisis dan AI.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Layanan</h3>
+                    <ul>
+                        <li><a href="#">Penyetoran Sampah</a></li>
+                        <li><a href="#">Sistem Poin</a></li>
+                        <li><a href="#">Tukar Reward</a></li>
+                        <li><a href="#">Monitoring</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Dukungan</h3>
+                    <ul>
+                        <li><a href="#">Pusat Bantuan</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Kontak</a></li>
+                        <li><a href="#">Tutorial</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Kontak</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> info@trashtotech.com</p>
+                        <p><i class="fas fa-phone"></i> +62 21 1234 5678</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Jakarta, Indonesia</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TRASH TO TECH. Semua hak dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- Scripts -->
+    <script src="scripts/camera.js"></script>
+    <script src="scripts/dashboard.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
